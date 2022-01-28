@@ -1,0 +1,39 @@
+.hero-main {
+    margin: 0 auto;
+    text-align: justify;
+    background-color: rgb(195, 11, 11);
+    color: rgb(238, 235, 235);
+}
+
+.line-head {
+    border-top: 3px solid whitesmoke;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input.input-field {
+    background-color: rgb(195, 11, 11);
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    width: 65%;
+    color: whitesmoke;
+    margin-right: 30px;
+}
+
+input.input-field:focus {
+    background-color: rgb(195, 11, 11);
+    outline: none;
+    outline-color: rgb(195, 11, 11);
+    color: whitesmoke;
+}
+
+.generate-btn {
+    color: rgb(195, 11, 11);
+    background-color: rgb(238, 235, 235);
+    padding: 3px 30px 3px 30px;
+    border: none;
+    width: 30%;
+}

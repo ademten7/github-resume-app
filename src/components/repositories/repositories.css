@@ -1,0 +1,60 @@
+.language-repos {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.language-centered {
+    padding-bottom: 0;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 250px;
+    height: 5px;
+    /* for firefox */
+    border: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(222, 222, 222);
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: black;
+    border-radius: 4px;
+    background-size: 20px 15px, 100% 100%, 100% 100%;
+}
+
+.repos {
+    margin-top: 3em;
+}
+
+.repos-header {
+    background-color: rgb(231, 231, 231);
+    padding: 2.5% 5% 0% 5%;
+}
+
+.repos-header h1 {
+    margin: 0;
+}
+
+.popular-repos:nth-child(odd) {
+    background-color: rgb(231, 231, 231);
+}
+
+.repo-name-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repo-name {
+    color: rgb(195, 11, 11);
+}
