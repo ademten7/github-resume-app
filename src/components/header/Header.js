@@ -8,7 +8,7 @@ const Header = () => {
 
   useEffect(() => {
     fetchUserProfile("ademten7");
-  }, []);
+  });
 
   const fetchUserProfile = async (name) => {
     const response = await fetch(`https://api.github.com/users/${name}`);
